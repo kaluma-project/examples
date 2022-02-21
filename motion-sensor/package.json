@@ -1,0 +1,4 @@
+{
+  "name": "motion-sensor",
+  "description": "Detect motion and turn on LED"
+}

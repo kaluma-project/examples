@@ -1,0 +1,7 @@
+{
+  "name": "ir-emitter",
+  "description": "Emitting IR signals with IR LED",
+  "dependencies": {
+    "ir-receiver": "git+https://github.com/niklauslee/ir-receiver.git"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "name": "potentiometer",
+  "description": "Read analog value from a potentiometer"
+}
