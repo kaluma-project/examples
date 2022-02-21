@@ -10,7 +10,6 @@
 | `/buzzer`        | Play a melody with piezo buzzer |
 | `/potentiometer` | Read analog value from a potentiometer |
 | `/photocell`     | Detect brightness using a photocell |
-| `/ir-emitter`    | Emitting IR signals with IR LED |
 | `/motion-sensor` | Detect motion and turn on LED |
 | `/relay-switch`  | Controlling a relay switch |
 | `/pio` | Examples using RP2's PIO (Programmable I/O) |
