@@ -7,12 +7,13 @@ A blink example for Raspberry Pi Pico W. Contrary to the regular Pico, the LED o
 Turn on and off the on-board LED for every seconds.
 
 ```js
-var led = 0
 const cyw43_arch = require('cyw43_arch');
+const led = 0
+let state = 1;
 
-cyw43_arch.gpioPut(led, 1);
 setInterval(() => {
-  cyw43_arch.gpioPut(led, 0);
+  cyw43_arch.gpioPut(led, state);
+  state = (state + 1 ) % 2; // Toggle between 1 and 0
 }, 1000);
 ```
 
